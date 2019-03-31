@@ -1,0 +1,49 @@
+body {
+	margin: 0 auto;
+	font-family: 'Cutive Mono', monospace;
+	background: linear-gradient(to right, #F7F0F0, #CCCED2);
+}
+h1 {
+	margin: 10px;
+}
+h2 {
+	margin: 20px 10px 5px 10px;
+}
+
+h3 {
+	margin: 0px 10px 20px 10px;
+	padding: 10px;
+	background-color: #f0f0f0;
+	font-weight: 400;
+}
+
+input {
+	border: none;
+	width: 20px;
+	height: 20px;
+}
+
+button {
+	background-color: transparent;
+	border: 1px solid;
+	border-radius: 5px;
+	font-family: 'Cutive Mono', monospace;
+	font-size: 15px;
+	font-weight: 900;
+}
+
+#container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+#box {
+	padding: 1rem;
+	border-radius: 10px;
+	text-align: center;
+	letter-spacing: -2px;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 500px;
+}
